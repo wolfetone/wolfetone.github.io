@@ -1,0 +1,147 @@
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/*Mobile Styles*/
+@media only screen and (max-width: 400px) {
+    
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---------*/
+.site {
+    background-color: rgb(26, 26, 26);;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-left: 21px;
+    margin-right: 21px;
+    text-size-adjust: 100%;
+}
+
+.header {
+    /*border: 1px dotted red;*/
+    margin: 0px;
+    padding: 25px;
+}
+.contentHeading {
+    /*border: 1px dotted rebeccapurple;*/
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 12.5px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(229, 229, 229);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    text-size-adjust: 100%;
+    overflow-wrap: break-word;
+    text-rendering: optimizeLegibility;
+}
+
+.content {
+    /*border: 1px dotted green;*/
+    color: rgb(229, 229, 229);;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    text-rendering: optimizeLegibility;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column1 {
+    /*border: 1px dotted blue;*/
+    margin-right: 12.5px;
+    width:50%;
+}
+
+.column2 {
+    /*border: 1px dotted blue;*/
+    margin-left: 12.5px;
+    width:50%;
+}
+.footer {
+    /*border: 1px dotted red;*/
+    color: rgb(193, 193, 193);
+    font-family: 'Merriweather', serif;
+    font-size: 13px;
+    padding: 25px;
+}
+
+h1.mainHeading {
+    color: rgb(229, 229, 229);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 800;
+    text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+h2.quote {
+    color: rgb(193, 193, 193);
+    font-family: 'Merriweather', serif;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 1400;
+    display: block;
+    margin-top: 7px;
+    text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background-color: rgb(38, 38, 38);;
+}
+
+p {
+    text-indent: 35px;
+}
